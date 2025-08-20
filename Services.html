@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services • My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo"><a href="index.html">My Portfolio</a></div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <section class="grid grid-3">
+    <div class="card fade">
+      <h3>Copywriting & Sales Pages</h3>
+      <p>Landing pages, email sequences, product pages, and funnels that convert.</p>
+    </div>
+    <div class="card fade delay-1">
+      <h3>Articles & Blog Posts</h3>
+      <p>Research-driven, SEO-aware, and genuinely readable content.</p>
+    </div>
+    <div class="card fade delay-2">
+      <h3>Poetry & Creative Writing</h3>
+      <p>Commissioned poems, short stories, and creative pieces for brands or personal use.</p>
+    </div>
+    <div class="card fade">
+      <h3>Music Covers & Lessons</h3>
+      <p>Piano, flute, and vocal arrangements; beginner-friendly lessons.</p>
+    </div>
+    <div class="card fade delay-1">
+      <h3>Short Video Editing</h3>
+      <p>Clean cuts, captions, and punchy formats for social media.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="y"></span> Your Name.</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
