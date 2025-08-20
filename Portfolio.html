@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio • My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo"><a href="index.html">My Portfolio</a></div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a class="active" href="portfolio.html">Portfolio</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container section">
+  <section class="grid grid-3">
+    <article class="tile fade">
+      <img src="https://via.placeholder.com/800x500.png?text=Sales+Page+Sample" alt="Sales page sample">
+      <div class="tile-body">
+        <h3>Sales Page • Spec</h3>
+        <p>Direct-response landing page with benefit-driven structure and clear CTA.</p>
+      </div>
+    </article>
+    <article class="tile fade delay-1">
+      <img src="https://via.placeholder.com/800x500.png?text=Blog+Post+Sample" alt="Blog post sample">
+      <div class="tile-body">
+        <h3>Article • Sample</h3>
+        <p>Long-form post with research and narrative flow for high dwell time.</p>
+      </div>
+    </article>
+    <article class="tile fade delay-2">
+      <img src="https://via.placeholder.com/800x500.png?text=Poem+Excerpt" alt="Poem excerpt">
+      <div class="tile-body">
+        <h3>Poetry • Excerpt</h3>
+        <p>A short, evocative piece demonstrating tone, imagery, and rhythm.</p>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="y"></span> Your Name.</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
